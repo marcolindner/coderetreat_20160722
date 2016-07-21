@@ -11,7 +11,7 @@ module.exports = (function() {
     },
     html: {
       files: [
-        'demos/*'
+        'src/*'
       ]
     },
     docs: {

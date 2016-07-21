@@ -3,6 +3,6 @@ angular.module('myApp').directive('mainApp', function () {
 
   return {
     restrict: 'E',
-    templateUrl: 'myApp/mainApp.html'
+    templateUrl: 'myApp/mainApp/mainApp.html'
   };
 });

@@ -1,8 +1,8 @@
-describe('customFooter directive', function () {
+describe('mainContainer directive', function () {
   'use strict';
 
   var $rootScope, $compile, $element;
-  var template = '<custom-footer></custom-footer>';
+  var template = '<main-container></main-container>';
 
   beforeEach(module('myApp'));
 
@@ -16,6 +16,6 @@ describe('customFooter directive', function () {
   }));
 
   it('should be rendered', function () {
-    expect($element.find('div.panel').length).toEqual(1);
+    expect($element.find('div.jumbotron').length).toEqual(1);
   });
 });
