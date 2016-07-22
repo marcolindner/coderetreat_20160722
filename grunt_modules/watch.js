@@ -24,11 +24,10 @@ module.exports = (function() {
     },
     assets: {
       files: [
-        'src/assets/**/*', '!src/assets/stylesheets/**/*'
+        'src/assets/**/*.less',
       ],
       tasks: [
-        'jshint:extraScripts',
-        'copy:assets'
+        'lesslint', 'less:development'
       ]
     }
   };
